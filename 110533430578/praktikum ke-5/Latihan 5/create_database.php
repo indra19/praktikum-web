@@ -8,7 +8,7 @@
 <body>
 <?php
 	require_once './koneksi.php';
-	$db = 'myweb';
+	$db = 'mysql';
 	$res = mysql_query('CREATE DATABASE ' . $db);
 	if ($res) 
 	{
